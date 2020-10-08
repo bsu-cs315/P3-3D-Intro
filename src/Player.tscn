@@ -8,7 +8,8 @@
 [ext_resource path="res://assets/Gun_Emission.material" type="Material" id=6]
 [ext_resource path="res://assets/32-32_white.png" type="Texture" id=7]
 [ext_resource path="res://assets/Titillium-Regular.otf" type="DynamicFontData" id=8]
-[ext_resource path="res://Player.gd" type="Script" id=9]
+[ext_resource path="res://src/Player.gd" type="Script" id=9]
+
 
 [sub_resource type="CapsuleShape" id=1]
 radius = 1.2
