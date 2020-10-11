@@ -1,12 +1,12 @@
 extends KinematicBody
 
-const GRAVITY = -24.8
-const MAX_SPEED = 20
-const MAX_SPRINT_SPEED = 30
-const JUMP_SPEED = 18
-const ACCEL = 4.5
-const ACCEL_SPRINT = 18
-const DEACCEL = 16
+const GRAVITY : float = -24.8
+const MAX_SPEED : int = 20
+const MAX_SPRINT_SPEED : int = 30
+const JUMP_SPEED : int = 18
+const ACCEL : float = 4.5
+const ACCEL_SPRINT : int = 18
+const DEACCEL : int = 16
 const MAX_SLOPE_ANGLE = 40
 const WEAPON_NUMBER_TO_NAME = {0:"UNARMED", 1:"KNIFE", 2:"PISTOL", 3:"RIFLE"}
 const WEAPON_NAME_TO_NUMBER = {"UNARMED":0, "KNIFE":1, "PISTOL":2, "RIFLE":3}
